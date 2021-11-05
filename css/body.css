@@ -6,12 +6,14 @@
             box-sizing: border-box;
         }
         
-        .sidebar {
+        .social_media_bar {
             height: 100%;
             width: 10%;
             display: flex;
             box-sizing: border-box;
             background-color: red;
+            display: flex;
+            flex-direction: column;
         }
         
         .main_text {
@@ -115,14 +117,14 @@
             padding: 60px 40px;
             margin: auto;
             text-align: center;
-            font-size: 24px;
-            visibility: hidden;
+            font-size: calc(20px + 2vw);
             box-sizing: border-box;
             font-family: 'Dancing Script', cursive;
-            font-weight: 700px;
-            font-size: 30px;
+            font-weight: 500px;
             text-align: center;
-            line-height: 40px;
+            line-height: calc(30px + 2vw);
+            align-self: center;
+            visibility: hidden;
         }
         
         .about_me_btn:active::after {
