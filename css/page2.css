@@ -2,6 +2,8 @@
                         background-color: #8BB8D9;
                         font-family: 'Fruktur', cursive;
                         display: flex;
+                        height: 100vh;
+                        width: 100vw;
                     }
                     
                     .other_pages_body {
@@ -13,7 +15,7 @@
                         align-items: center;
                         justify-content: center;
                         text-align: center;
-                        row-gap: calc(30px + 2vw);
+                        row-gap: calc(20px + 1vw);
                     }
                     
                     .other_pages_body h1 {
