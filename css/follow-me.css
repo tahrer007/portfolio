@@ -1,5 +1,6 @@
     .icon-bar {
         position: fixed;
+        z-index: 2;
         top: 50%;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
@@ -18,7 +19,7 @@
     
     .icon-bar a:hover {
         /*background-color: #000;*/
-        width: 100%;
+        width: 200%;
     }
     
     .facebook {
