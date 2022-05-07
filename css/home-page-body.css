@@ -4,6 +4,7 @@
             background-color: #16191C;
             display: flex;
             box-sizing: border-box;
+            overflow: hidden;
         }
         
         .social_media_bar {
@@ -106,7 +107,7 @@
         }
         
         .about_me_btn::after {
-            content: 'Hey! My name is Tahrer. I am a web designer. I’ve always been someone who has both a logical and a technical side. When I discovered programming in school, I realized it would be the perfect fit. So, I am starting my voyage to find my passion. ';
+            content: 'Hey! My name is Tahrer.I am a web designer. I’ve always been someone who has both a logical and a technical side.When I discovered programming in school, I realized it would be the perfect fit. So, I am starting my voyage to find my passion. ';
             height: 100%;
             width: 100%;
             position: absolute;

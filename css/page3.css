@@ -2,6 +2,7 @@
     font-family: 'Fruktur', cursive;
     display: flex;
     margin: 0;
+    overflow: hidden;
 }
 
 .page3>.other_pages_body {
@@ -12,6 +13,7 @@
     gap: 0;
     background-color: #16191C;
     color: #ffffff;
+    overflow: hidden;
 }
 
 .page3_form {
@@ -53,14 +55,5 @@ textarea {
 }
 
 input[type=submit] {
-    color: white;
     width: 100%;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-input[type=submit]:hover {
-    background-color: #45a049;
 }
